@@ -8,7 +8,7 @@ interface PageCenterProps {
 export const PageCenter: React.FC<PageCenterProps> = (props: PageCenterProps) => {
   const { children, className = '' } = props
   return (
-    <div className={`w-10/12 mx-auto`}>
+    <div className={`w-11/12 mx-auto`}>
       <div className={`w-full ${className}`}>{children}</div>
     </div>
   )
