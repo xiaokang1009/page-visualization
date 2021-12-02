@@ -1,3 +1,3 @@
 import Page from './Page/Page'
-
-export { Page }
+import { NavBar } from './NavBar/NavBar'
+export { Page, NavBar }
