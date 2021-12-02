@@ -1,3 +1,21 @@
 {
-  "extends": "next/core-web-vitals"
+
+  "env": {
+    "amd": false,
+    "browser": true,
+    "node": false,
+    "es6": true
+  },
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:prettier/recommended",
+    "prettier/react"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "parser": "babel-eslint",
+  "rules": {
+    "prettier/prettier": "error"
+  }
 }
