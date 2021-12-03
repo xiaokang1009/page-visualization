@@ -1,10 +1,10 @@
 import React from 'react'
-import { NavBar, Page } from '../../common'
+import { MenuBar, Page } from 'common'
 
 export const HomePage: React.FC = () => {
   return (
-    <Page noPadding>
-      <NavBar />
+    <Page classname={`overflow-hidden`} noPadding>
+      <MenuBar />
       <div>banner</div>
       <div>footer</div>
     </Page>
