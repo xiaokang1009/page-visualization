@@ -11,7 +11,7 @@ interface PageProps {
 }
 
 const Page: React.FC<PageProps> & { Center: typeof PageCenter } = (props: PageProps) => {
-  const { children, fullHeight, flex, noPadding = false, classname } = props
+  const { children, fullHeight, flex, noPadding = false, classname = '' } = props
   const classes = cn({
     flex,
     'min-h-main': fullHeight,

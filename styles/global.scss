@@ -1,0 +1,28 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+body {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+.tools-height{
+  height: 540px;
+}
+.pr-10 {
+  padding-right: 10px;
+}
+.w10 {
+  width: 10px;
+}
+.scroller{
+  &::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(#cc9,#ccc);
+    border-radius: 3px;
+  }
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+}
